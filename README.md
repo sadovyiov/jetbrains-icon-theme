@@ -64,28 +64,28 @@ Contributions are welcome!
 
 2.  Clone your fork:
 
-    ``` bash
-    git clone https://github.com/your-username/zed-jetbrains-icon.git
-    ```
+``` bash
+git clone https://github.com/your-username/zed-jetbrains-icon.git
+```
 
 3.  Create a new branch:
 
-    ``` bash
-    git checkout -b feature/your-feature
-    ```
+``` bash
+git checkout -b feature/your-feature
+```
 
 4.  Make your changes
 
 5.  Test locally in Zed:
 
-    -   `Extensions → Install Dev Extension`
+-   `Extensions → Install Dev Extension`
 
 6.  Commit and push:
 
-    ``` bash
-    git commit -m "Add: your feature"
-    git push origin feature/your-feature
-    ```
+``` bash
+git commit -m "Add: your feature"
+git push origin feature/your-feature
+```
 
 7.  Open a Pull Request
 

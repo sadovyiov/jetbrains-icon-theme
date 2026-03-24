@@ -1,0 +1,1135 @@
+{
+    "$schema": "https://zed.dev/schema/icon_themes/v0.2.0.json",
+    "author": "sadovyiov (<sadovyiov@gmail.com>)",
+    "name": "JetBrains Icon Theme",
+    "themes": [
+        {
+            "name": "JetBrains Icon (Dark)",
+            "appearance": "dark",
+            "directory_icons": {
+                "collapsed": "./icons/directory_dark.svg",
+                "expanded": "./icons/directory_dark.svg"
+            },
+            "file_stems": {
+                "Makefile": "makefile",
+                "CMakeLists.txt": "cmake",
+                "Dockerfile": "docker",
+                "Jenkinsfile": "jenkins",
+                "Rakefile": "rake_task",
+                "Gemfile": "ruby_gems",
+                "Gemfile.lock": "ruby_gems",
+                "Cargo.toml": "cargo",
+                "Cargo.lock": "cargo_lock",
+                "go.mod": "go_mod",
+                "go.sum": "go_sum",
+                "go.work": "go_work",
+                "pnpm-lock.yaml": "pnpm",
+                "yarn.lock": "yarn",
+                ".editorconfig": "editor_config",
+                ".eslintrc": "eslint",
+                ".eslintrc.json": "eslint",
+                ".eslintrc.js": "eslint",
+                ".eslintrc.yml": "eslint",
+                ".eslintrc.yaml": "eslint",
+                ".eslintignore": "eslint",
+                ".gitignore": "vcs",
+                ".gitattributes": "vcs",
+                ".gitmodules": "vcs",
+                "tailwind.config.js": "tailwind",
+                "tailwind.config.ts": "tailwind",
+                "tailwind.config.mjs": "tailwind",
+                "vite.config.js": "vite",
+                "vite.config.ts": "vite",
+                "vite.config.mjs": "vite",
+                "postcss.config.cjs": "postcss",
+                "postcss.config.js": "postcss",
+                "postcss.config.ts": "postcss",
+                "postcss.config.mjs": "postcss",
+                "dune": "dune",
+                "dune-project": "dune"
+            },
+            "file_suffixes": {
+                "as": "actionscript",
+                "mxml": "actionscript",
+                "bash": "terminal",
+                "bat": "terminal",
+                "sh": "terminal",
+                "zsh": "terminal",
+                "fish": "terminal",
+                "ksh": "terminal",
+                "csh": "terminal",
+                "nu": "terminal",
+                "beam": "beam",
+                "erl": "erlang",
+                "hrl": "erlang",
+                "c": "c",
+                "i": "c",
+                "rs": "rust",
+                "ron": "rust",
+                "toml": "toml",
+                "Cargo.toml": "cargo",
+                "clj": "clojure",
+                "cljs": "clojure",
+                "cljc": "clojure",
+                "cmake": "cmake",
+                "cs": "csharp",
+                "csx": "csharp",
+                "cshtml": "cshtml",
+                "razor": "cshtml",
+                "csproj": "csproj",
+                "sln": "solution",
+                "css": "css",
+                "csv": "csv",
+                "tsv": "csv",
+                "cu": "cu",
+                "cuh": "cuh",
+                "dart": "dart",
+                "freezed.dart": "dart",
+                "sqlite": "dbms",
+                "sqlite3": "dbms",
+                "db": "dbms",
+                "mdb": "dbms",
+                "accdb": "dbms",
+                "dockerfile": "docker",
+                "dockerignore": "docker",
+                "docker-compose.yml": "docker",
+                "docker-compose.yaml": "docker",
+                "compose.yml": "docker",
+                "compose.yaml": "docker",
+                "ex": "elixir",
+                "exs": "elixir",
+                "eex": "eex",
+                "heex": "eex",
+                "leex": "eex",
+                "eslintrc": "eslint",
+                "eslintignore": "eslint",
+                "ttf": "font",
+                "woff": "font",
+                "woff2": "font",
+                "otf": "font",
+                "eot": "font",
+                "fnt": "font",
+                "gleam": "gleam",
+                "go": "go",
+                "gotmpl": "go_template",
+                "tmpl": "go_template",
+                "gohtml": "go_template",
+                "graphql": "graphql",
+                "gql": "graphql",
+                "groovy": "groovy",
+                "gvy": "groovy",
+                "gy": "groovy",
+                "h": "h",
+                "hs": "haskell",
+                "lhs": "haskell",
+                "hcl": "hcl",
+                "html": "html",
+                "htm": "html",
+                "xhtml": "html",
+                "http": "http",
+                "rest": "http",
+                "png": "image",
+                "jpg": "image",
+                "jpeg": "image",
+                "gif": "image",
+                "ico": "image",
+                "bmp": "image",
+                "svg": "image",
+                "webp": "image",
+                "tif": "image",
+                "tiff": "image",
+                "avif": "image",
+                "heic": "image",
+                "heif": "image",
+                "eps": "image",
+                "raw": "image",
+                "ino": "ino",
+                "java": "java",
+                "jsp": "java",
+                "js": "javascript",
+                "mjs": "javascript",
+                "cjs": "javascript",
+                "esx": "javascript",
+                "jinja": "jinja",
+                "jinja2": "jinja",
+                "j2": "jinja",
+                "json": "json",
+                "jsonc": "json",
+                "json5": "json",
+                "jsonl": "json",
+                "jsx": "jsx",
+                "ipynb": "jupyter",
+                "kt": "kotlin",
+                "kts": "kotlin",
+                "less": "less",
+                "lock": "lock",
+                "lua": "lua",
+                "md": "markdown",
+                "markdown": "markdown",
+                "mdx": "mdx",
+                "ml": "ml",
+                "mli": "mli",
+                "opam": "opam",
+                "pdf": "pdf",
+                "php": "php",
+                "phtml": "php",
+                "php3": "php",
+                "php4": "php",
+                "php5": "php",
+                "pcss": "postcss",
+                "postcss": "postcss",
+                "ini": "properties",
+                "cfg": "properties",
+                "conf": "properties",
+                "properties": "properties",
+                "proto": "proto_file",
+                "py": "python",
+                "pyc": "python",
+                "pyi": "python_console",
+                "rb": "ruby",
+                "erb": "erb_file",
+                "gemspec": "ruby_gems",
+                "rake": "rake_task",
+                "scala": "scala",
+                "sc": "scala",
+                "scss": "scss",
+                "sass": "scss",
+                "slim": "slim",
+                "sql": "sql",
+                "pgsql": "sql",
+                "plpgsql": "sql",
+                "psql": "sql",
+                "svelte": "svelte",
+                "swift": "swift",
+                "tf": "terraform",
+                "tfvars": "terraform",
+                "ts": "typescript",
+                "tsx": "react",
+                "txt": "document",
+                "log": "document",
+                "vue": "vue",
+                "xml": "xml",
+                "plist": "xml",
+                "xsd": "xml",
+                "xsl": "xml",
+                "xslt": "xml",
+                "yaml": "yaml",
+                "yml": "yaml",
+                "zip": "archive",
+                "tar": "archive",
+                "gz": "archive",
+                "xz": "archive",
+                "7z": "archive",
+                "rar": "archive",
+                "bz2": "archive",
+                "tgz": "archive",
+                "tbz2": "archive",
+                "zst": "archive",
+                "jar": "archive",
+                "war": "archive",
+                "hpp": "hpp",
+                "hh": "hpp",
+                "hxx": "hpp",
+                "cc": "cpp",
+                "cpp": "cpp",
+                "cxx": "cpp",
+                "c++": "cpp",
+                "cp": "cpp",
+                "rego": "rego"
+            },
+            "file_icons": {
+                "actionscript": {
+                    "path": "./icons/actionscript_dark.svg"
+                },
+                "angular_js": {
+                    "path": "./icons/angular_js.svg"
+                },
+                "application": {
+                    "path": "./icons/application_dark.svg"
+                },
+                "archive": {
+                    "path": "./icons/archive_dark.svg"
+                },
+                "beam": {
+                    "path": "./icons/beam.svg"
+                },
+                "c": {
+                    "path": "./icons/c_dark.svg"
+                },
+                "cargo": {
+                    "path": "./icons/cargo_dark.svg"
+                },
+                "cargo_lock": {
+                    "path": "./icons/cargo_lock_dark.svg"
+                },
+                "clojure": {
+                    "path": "./icons/clojure.svg"
+                },
+                "cmake": {
+                    "path": "./icons/cmake.svg"
+                },
+                "code": {
+                    "path": "./icons/json_dark.svg"
+                },
+                "cpp": {
+                    "path": "./icons/cpp_dark.svg"
+                },
+                "cs": {
+                    "path": "./icons/cs_dark.svg"
+                },
+                "cshtml": {
+                    "path": "./icons/cshtml_dark.svg"
+                },
+                "csproj": {
+                    "path": "./icons/csproj_dark.svg"
+                },
+                "csharp": {
+                    "path": "./icons/cs_dark.svg"
+                },
+                "css": {
+                    "path": "./icons/css.svg"
+                },
+                "csv": {
+                    "path": "./icons/csv_dark.svg"
+                },
+                "cu": {
+                    "path": "./icons/cu_dark.svg"
+                },
+                "cuh": {
+                    "path": "./icons/cuh_dark.svg"
+                },
+                "dart": {
+                    "path": "./icons/dart_dark.svg"
+                },
+                "dbms": {
+                    "path": "./icons/dbms_dark.svg"
+                },
+                "default": {
+                    "path": "./icons/any_type_dark.svg"
+                },
+                "docker": {
+                    "path": "./icons/docker_dark.svg"
+                },
+                "document": {
+                    "path": "./icons/text_dark.svg"
+                },
+                "dune": {
+                    "path": "./icons/dune.svg"
+                },
+                "editor_config": {
+                    "path": "./icons/editor_config_dark.svg"
+                },
+                "eex": {
+                    "path": "./icons/eex_dark.svg"
+                },
+                "elixir": {
+                    "path": "./icons/elixir_dark.svg"
+                },
+                "erb_file": {
+                    "path": "./icons/erb_file_dark.svg"
+                },
+                "erlang": {
+                    "path": "./icons/erlang.svg"
+                },
+                "eslint": {
+                    "path": "./icons/eslint.svg"
+                },
+                "font": {
+                    "path": "./icons/font_dark.svg"
+                },
+                "gleam": {
+                    "path": "./icons/gleam_dark.svg"
+                },
+                "go": {
+                    "path": "./icons/go_dark.svg"
+                },
+                "go_mod": {
+                    "path": "./icons/go_mod_dark.svg"
+                },
+                "go_run_application": {
+                    "path": "./icons/go_run_application_dark.svg"
+                },
+                "go_sum": {
+                    "path": "./icons/go_sum_dark.svg"
+                },
+                "go_template": {
+                    "path": "./icons/go_template_dark.svg"
+                },
+                "go_test": {
+                    "path": "./icons/go_test_dark.svg"
+                },
+                "go_work": {
+                    "path": "./icons/go_work_dark.svg"
+                },
+                "graphql": {
+                    "path": "./icons/graphql_dark.svg"
+                },
+                "groovy": {
+                    "path": "./icons/groovy_dark.svg"
+                },
+                "h": {
+                    "path": "./icons/h_dark.svg"
+                },
+                "hpp": {
+                    "path": "./icons/h_dark.svg"
+                },
+                "haskell": {
+                    "path": "./icons/haskell_dark.svg"
+                },
+                "hcl": {
+                    "path": "./icons/hcl_dark.svg"
+                },
+                "html": {
+                    "path": "./icons/html_dark.svg"
+                },
+                "http": {
+                    "path": "./icons/http_dark.svg"
+                },
+                "ignored": {
+                    "path": "./icons/ignored_dark.svg"
+                },
+                "image": {
+                    "path": "./icons/image_dark.svg"
+                },
+                "ino": {
+                    "path": "./icons/ino_dark.svg"
+                },
+                "java": {
+                    "path": "./icons/java_dark.svg"
+                },
+                "javascript": {
+                    "path": "./icons/javascript_dark.svg"
+                },
+                "jenkins": {
+                    "path": "./icons/jenkins_dark.svg"
+                },
+                "jinja": {
+                    "path": "./icons/jinja_dark.svg"
+                },
+                "json": {
+                    "path": "./icons/json_dark.svg"
+                },
+                "js_test": {
+                    "path": "./icons/js_test_dark.svg"
+                },
+                "jsx": {
+                    "path": "./icons/jsx_dark.svg"
+                },
+                "jsx_test": {
+                    "path": "./icons/jsx_test_dark.svg"
+                },
+                "jupyter": {
+                    "path": "./icons/jupyter.svg"
+                },
+                "kotlin": {
+                    "path": "./icons/kotlin_dark.svg"
+                },
+                "less": {
+                    "path": "./icons/less_dark.svg"
+                },
+                "lock": {
+                    "path": "./icons/lock_dark.svg"
+                },
+                "lua": {
+                    "path": "./icons/lua_dark.svg"
+                },
+                "makefile": {
+                    "path": "./icons/makefile_dark.svg"
+                },
+                "markdown": {
+                    "path": "./icons/markdown_dark.svg"
+                },
+                "mdx": {
+                    "path": "./icons/mdx.svg"
+                },
+                "ml": {
+                    "path": "./icons/ml.svg"
+                },
+                "mli": {
+                    "path": "./icons/mli.svg"
+                },
+                "opam": {
+                    "path": "./icons/opam.svg"
+                },
+                "pdf": {
+                    "path": "./icons/pdf.svg"
+                },
+                "php": {
+                    "path": "./icons/php_dark.svg"
+                },
+                "pnpm": {
+                    "path": "./icons/pnpm_dark.svg"
+                },
+                "postcss": {
+                    "path": "./icons/postcss.svg"
+                },
+                "project_properties": {
+                    "path": "./icons/project_properties_dark.svg"
+                },
+                "properties": {
+                    "path": "./icons/properties_dark.svg"
+                },
+                "protobuf": {
+                    "path": "./icons/protobuf.svg"
+                },
+                "proto_file": {
+                    "path": "./icons/proto_file_dark.svg"
+                },
+                "python": {
+                    "path": "./icons/python_dark.svg"
+                },
+                "python_console": {
+                    "path": "./icons/python_console_dark.svg"
+                },
+                "python_tests": {
+                    "path": "./icons/python_tests_dark.svg"
+                },
+                "rake_task": {
+                    "path": "./icons/rake_task_dark.svg"
+                },
+                "react": {
+                    "path": "./icons/react_dark.svg"
+                },
+                "rego": {
+                    "path": "./icons/rego.svg"
+                },
+                "ruby": {
+                    "path": "./icons/ruby_dark.svg"
+                },
+                "ruby_gems": {
+                    "path": "./icons/ruby_gems_dark.svg"
+                },
+                "rust": {
+                    "path": "./icons/rust_file_dark.svg"
+                },
+                "scala": {
+                    "path": "./icons/scala_dark.svg"
+                },
+                "scss": {
+                    "path": "./icons/scss.svg"
+                },
+                "settings": {
+                    "path": "./icons/config_dark.svg"
+                },
+                "slim": {
+                    "path": "./icons/slim_dark.svg"
+                },
+                "solution": {
+                    "path": "./icons/solution_dark.svg"
+                },
+                "sql": {
+                    "path": "./icons/sql_dark.svg"
+                },
+                "svelte": {
+                    "path": "./icons/svelte.svg"
+                },
+                "swift": {
+                    "path": "./icons/swift.svg"
+                },
+                "tailwind": {
+                    "path": "./icons/tailwind.svg"
+                },
+                "terminal": {
+                    "path": "./icons/shell_dark.svg"
+                },
+                "terraform": {
+                    "path": "./icons/terraform_dark.svg"
+                },
+                "toml": {
+                    "path": "./icons/toml_dark.svg"
+                },
+                "ts_test": {
+                    "path": "./icons/ts_test_dark.svg"
+                },
+                "tsx_test": {
+                    "path": "./icons/tsx_test_dark.svg"
+                },
+                "typescript": {
+                    "path": "./icons/typescript_dark.svg"
+                },
+                "vcs": {
+                    "path": "./icons/gitignore.svg"
+                },
+                "vite": {
+                    "path": "./icons/vite_dark.svg"
+                },
+                "vue": {
+                    "path": "./icons/vue_js.svg"
+                },
+                "xml": {
+                    "path": "./icons/xml_dark.svg"
+                },
+                "yaml": {
+                    "path": "./icons/yaml_dark.svg"
+                },
+                "yarn": {
+                    "path": "./icons/yarn.svg"
+                }
+            }
+        },
+        {
+            "name": "JetBrains Icon (Light)",
+            "appearance": "light",
+            "directory_icons": {
+                "collapsed": "./icons/directory.svg",
+                "expanded": "./icons/directory.svg"
+            },
+            "file_stems": {
+                "Makefile": "makefile",
+                "CMakeLists.txt": "cmake",
+                "Dockerfile": "docker",
+                "Jenkinsfile": "jenkins",
+                "Rakefile": "rake_task",
+                "Gemfile": "ruby_gems",
+                "Gemfile.lock": "ruby_gems",
+                "Cargo.toml": "cargo",
+                "Cargo.lock": "cargo_lock",
+                "go.mod": "go_mod",
+                "go.sum": "go_sum",
+                "go.work": "go_work",
+                "pnpm-lock.yaml": "pnpm",
+                "yarn.lock": "yarn",
+                ".editorconfig": "editor_config",
+                ".eslintrc": "eslint",
+                ".eslintrc.json": "eslint",
+                ".eslintrc.js": "eslint",
+                ".eslintrc.yml": "eslint",
+                ".eslintrc.yaml": "eslint",
+                ".eslintignore": "eslint",
+                ".gitignore": "vcs",
+                ".gitattributes": "vcs",
+                ".gitmodules": "vcs",
+                "tailwind.config.js": "tailwind",
+                "tailwind.config.ts": "tailwind",
+                "tailwind.config.mjs": "tailwind",
+                "vite.config.js": "vite",
+                "vite.config.ts": "vite",
+                "vite.config.mjs": "vite",
+                "postcss.config.cjs": "postcss",
+                "postcss.config.js": "postcss",
+                "postcss.config.ts": "postcss",
+                "postcss.config.mjs": "postcss",
+                "dune": "dune",
+                "dune-project": "dune"
+            },
+            "file_suffixes": {
+                "as": "actionscript",
+                "mxml": "actionscript",
+                "bash": "terminal",
+                "bat": "terminal",
+                "sh": "terminal",
+                "zsh": "terminal",
+                "fish": "terminal",
+                "ksh": "terminal",
+                "csh": "terminal",
+                "nu": "terminal",
+                "beam": "beam",
+                "erl": "erlang",
+                "hrl": "erlang",
+                "c": "c",
+                "i": "c",
+                "rs": "rust",
+                "ron": "rust",
+                "toml": "toml",
+                "Cargo.toml": "cargo",
+                "clj": "clojure",
+                "cljs": "clojure",
+                "cljc": "clojure",
+                "cmake": "cmake",
+                "cs": "csharp",
+                "csx": "csharp",
+                "cshtml": "cshtml",
+                "razor": "cshtml",
+                "csproj": "csproj",
+                "sln": "solution",
+                "css": "css",
+                "csv": "csv",
+                "tsv": "csv",
+                "cu": "cu",
+                "cuh": "cuh",
+                "dart": "dart",
+                "freezed.dart": "dart",
+                "sqlite": "dbms",
+                "sqlite3": "dbms",
+                "db": "dbms",
+                "mdb": "dbms",
+                "accdb": "dbms",
+                "dockerfile": "docker",
+                "dockerignore": "docker",
+                "docker-compose.yml": "docker",
+                "docker-compose.yaml": "docker",
+                "compose.yml": "docker",
+                "compose.yaml": "docker",
+                "ex": "elixir",
+                "exs": "elixir",
+                "eex": "eex",
+                "heex": "eex",
+                "leex": "eex",
+                "eslintrc": "eslint",
+                "eslintignore": "eslint",
+                "ttf": "font",
+                "woff": "font",
+                "woff2": "font",
+                "otf": "font",
+                "eot": "font",
+                "fnt": "font",
+                "gleam": "gleam",
+                "go": "go",
+                "gotmpl": "go_template",
+                "tmpl": "go_template",
+                "gohtml": "go_template",
+                "graphql": "graphql",
+                "gql": "graphql",
+                "groovy": "groovy",
+                "gvy": "groovy",
+                "gy": "groovy",
+                "h": "h",
+                "hs": "haskell",
+                "lhs": "haskell",
+                "hcl": "hcl",
+                "html": "html",
+                "htm": "html",
+                "xhtml": "html",
+                "http": "http",
+                "rest": "http",
+                "png": "image",
+                "jpg": "image",
+                "jpeg": "image",
+                "gif": "image",
+                "ico": "image",
+                "bmp": "image",
+                "svg": "image",
+                "webp": "image",
+                "tif": "image",
+                "tiff": "image",
+                "avif": "image",
+                "heic": "image",
+                "heif": "image",
+                "eps": "image",
+                "raw": "image",
+                "ino": "ino",
+                "java": "java",
+                "jsp": "java",
+                "js": "javascript",
+                "mjs": "javascript",
+                "cjs": "javascript",
+                "esx": "javascript",
+                "jinja": "jinja",
+                "jinja2": "jinja",
+                "j2": "jinja",
+                "json": "json",
+                "jsonc": "json",
+                "json5": "json",
+                "jsonl": "json",
+                "jsx": "jsx",
+                "ipynb": "jupyter",
+                "kt": "kotlin",
+                "kts": "kotlin",
+                "less": "less",
+                "lock": "lock",
+                "lua": "lua",
+                "md": "markdown",
+                "markdown": "markdown",
+                "mdx": "mdx",
+                "ml": "ml",
+                "mli": "mli",
+                "opam": "opam",
+                "pdf": "pdf",
+                "php": "php",
+                "phtml": "php",
+                "php3": "php",
+                "php4": "php",
+                "php5": "php",
+                "pcss": "postcss",
+                "postcss": "postcss",
+                "ini": "properties",
+                "cfg": "properties",
+                "conf": "properties",
+                "properties": "properties",
+                "proto": "proto_file",
+                "py": "python",
+                "pyc": "python",
+                "pyi": "python_console",
+                "rb": "ruby",
+                "erb": "erb_file",
+                "gemspec": "ruby_gems",
+                "rake": "rake_task",
+                "scala": "scala",
+                "sc": "scala",
+                "scss": "scss",
+                "sass": "scss",
+                "slim": "slim",
+                "sql": "sql",
+                "pgsql": "sql",
+                "plpgsql": "sql",
+                "psql": "sql",
+                "svelte": "svelte",
+                "swift": "swift",
+                "tf": "terraform",
+                "tfvars": "terraform",
+                "ts": "typescript",
+                "tsx": "react",
+                "txt": "document",
+                "log": "document",
+                "vue": "vue",
+                "xml": "xml",
+                "plist": "xml",
+                "xsd": "xml",
+                "xsl": "xml",
+                "xslt": "xml",
+                "yaml": "yaml",
+                "yml": "yaml",
+                "zip": "archive",
+                "tar": "archive",
+                "gz": "archive",
+                "xz": "archive",
+                "7z": "archive",
+                "rar": "archive",
+                "bz2": "archive",
+                "tgz": "archive",
+                "tbz2": "archive",
+                "zst": "archive",
+                "jar": "archive",
+                "war": "archive",
+                "hpp": "hpp",
+                "hh": "hpp",
+                "hxx": "hpp",
+                "cc": "cpp",
+                "cpp": "cpp",
+                "cxx": "cpp",
+                "c++": "cpp",
+                "cp": "cpp",
+                "rego": "rego"
+            },
+            "file_icons": {
+                "actionscript": {
+                    "path": "./icons/actionscript.svg"
+                },
+                "angular_js": {
+                    "path": "./icons/angular_js.svg"
+                },
+                "application": {
+                    "path": "./icons/application.svg"
+                },
+                "archive": {
+                    "path": "./icons/archive.svg"
+                },
+                "beam": {
+                    "path": "./icons/beam.svg"
+                },
+                "c": {
+                    "path": "./icons/c.svg"
+                },
+                "cargo": {
+                    "path": "./icons/cargo.svg"
+                },
+                "cargo_lock": {
+                    "path": "./icons/cargo_lock.svg"
+                },
+                "clojure": {
+                    "path": "./icons/clojure.svg"
+                },
+                "cmake": {
+                    "path": "./icons/cmake.svg"
+                },
+                "code": {
+                    "path": "./icons/json.svg"
+                },
+                "cpp": {
+                    "path": "./icons/cpp.svg"
+                },
+                "cs": {
+                    "path": "./icons/cs.svg"
+                },
+                "cshtml": {
+                    "path": "./icons/cshtml.svg"
+                },
+                "csproj": {
+                    "path": "./icons/csproj.svg"
+                },
+                "csharp": {
+                    "path": "./icons/cs.svg"
+                },
+                "css": {
+                    "path": "./icons/css.svg"
+                },
+                "csv": {
+                    "path": "./icons/csv.svg"
+                },
+                "cu": {
+                    "path": "./icons/cu.svg"
+                },
+                "cuh": {
+                    "path": "./icons/cuh.svg"
+                },
+                "dart": {
+                    "path": "./icons/dart.svg"
+                },
+                "dbms": {
+                    "path": "./icons/dbms.svg"
+                },
+                "default": {
+                    "path": "./icons/any_type.svg"
+                },
+                "docker": {
+                    "path": "./icons/docker.svg"
+                },
+                "document": {
+                    "path": "./icons/text.svg"
+                },
+                "dune": {
+                    "path": "./icons/dune.svg"
+                },
+                "editor_config": {
+                    "path": "./icons/editor_config.svg"
+                },
+                "eex": {
+                    "path": "./icons/eex.svg"
+                },
+                "elixir": {
+                    "path": "./icons/elixir.svg"
+                },
+                "erb_file": {
+                    "path": "./icons/erb_file.svg"
+                },
+                "erlang": {
+                    "path": "./icons/erlang.svg"
+                },
+                "eslint": {
+                    "path": "./icons/eslint.svg"
+                },
+                "font": {
+                    "path": "./icons/font.svg"
+                },
+                "gleam": {
+                    "path": "./icons/gleam.svg"
+                },
+                "go": {
+                    "path": "./icons/go.svg"
+                },
+                "go_mod": {
+                    "path": "./icons/go_mod.svg"
+                },
+                "go_run_application": {
+                    "path": "./icons/go_run_application.svg"
+                },
+                "go_sum": {
+                    "path": "./icons/go_sum.svg"
+                },
+                "go_template": {
+                    "path": "./icons/go_template.svg"
+                },
+                "go_test": {
+                    "path": "./icons/go_test.svg"
+                },
+                "go_work": {
+                    "path": "./icons/go_work.svg"
+                },
+                "graphql": {
+                    "path": "./icons/graphql.svg"
+                },
+                "groovy": {
+                    "path": "./icons/groovy.svg"
+                },
+                "h": {
+                    "path": "./icons/h.svg"
+                },
+                "hpp": {
+                    "path": "./icons/h.svg"
+                },
+                "haskell": {
+                    "path": "./icons/haskell.svg"
+                },
+                "hcl": {
+                    "path": "./icons/hcl.svg"
+                },
+                "html": {
+                    "path": "./icons/html.svg"
+                },
+                "http": {
+                    "path": "./icons/http.svg"
+                },
+                "ignored": {
+                    "path": "./icons/ignored.svg"
+                },
+                "image": {
+                    "path": "./icons/image.svg"
+                },
+                "ino": {
+                    "path": "./icons/ino.svg"
+                },
+                "java": {
+                    "path": "./icons/java.svg"
+                },
+                "javascript": {
+                    "path": "./icons/javascript.svg"
+                },
+                "jenkins": {
+                    "path": "./icons/jenkins.svg"
+                },
+                "jinja": {
+                    "path": "./icons/jinja.svg"
+                },
+                "json": {
+                    "path": "./icons/json.svg"
+                },
+                "js_test": {
+                    "path": "./icons/js_test.svg"
+                },
+                "jsx": {
+                    "path": "./icons/jsx.svg"
+                },
+                "jsx_test": {
+                    "path": "./icons/jsx_test.svg"
+                },
+                "jupyter": {
+                    "path": "./icons/jupyter.svg"
+                },
+                "kotlin": {
+                    "path": "./icons/kotlin.svg"
+                },
+                "less": {
+                    "path": "./icons/less.svg"
+                },
+                "lock": {
+                    "path": "./icons/lock.svg"
+                },
+                "lua": {
+                    "path": "./icons/lua.svg"
+                },
+                "makefile": {
+                    "path": "./icons/makefile.svg"
+                },
+                "markdown": {
+                    "path": "./icons/markdown.svg"
+                },
+                "mdx": {
+                    "path": "./icons/mdx.svg"
+                },
+                "ml": {
+                    "path": "./icons/ml.svg"
+                },
+                "mli": {
+                    "path": "./icons/mli.svg"
+                },
+                "opam": {
+                    "path": "./icons/opam.svg"
+                },
+                "pdf": {
+                    "path": "./icons/pdf.svg"
+                },
+                "php": {
+                    "path": "./icons/php.svg"
+                },
+                "pnpm": {
+                    "path": "./icons/pnpm.svg"
+                },
+                "postcss": {
+                    "path": "./icons/postcss.svg"
+                },
+                "project_properties": {
+                    "path": "./icons/project_properties.svg"
+                },
+                "properties": {
+                    "path": "./icons/properties.svg"
+                },
+                "protobuf": {
+                    "path": "./icons/protobuf.svg"
+                },
+                "proto_file": {
+                    "path": "./icons/proto_file.svg"
+                },
+                "python": {
+                    "path": "./icons/python.svg"
+                },
+                "python_console": {
+                    "path": "./icons/python_console.svg"
+                },
+                "python_tests": {
+                    "path": "./icons/python_tests.svg"
+                },
+                "rake_task": {
+                    "path": "./icons/rake_task.svg"
+                },
+                "react": {
+                    "path": "./icons/react.svg"
+                },
+                "rego": {
+                    "path": "./icons/rego.svg"
+                },
+                "ruby": {
+                    "path": "./icons/ruby.svg"
+                },
+                "ruby_gems": {
+                    "path": "./icons/ruby_gems.svg"
+                },
+                "rust": {
+                    "path": "./icons/rust_file.svg"
+                },
+                "scala": {
+                    "path": "./icons/scala.svg"
+                },
+                "scss": {
+                    "path": "./icons/scss.svg"
+                },
+                "settings": {
+                    "path": "./icons/config.svg"
+                },
+                "slim": {
+                    "path": "./icons/slim.svg"
+                },
+                "solution": {
+                    "path": "./icons/solution.svg"
+                },
+                "sql": {
+                    "path": "./icons/sql.svg"
+                },
+                "svelte": {
+                    "path": "./icons/svelte.svg"
+                },
+                "swift": {
+                    "path": "./icons/swift.svg"
+                },
+                "tailwind": {
+                    "path": "./icons/tailwind.svg"
+                },
+                "terminal": {
+                    "path": "./icons/shell.svg"
+                },
+                "terraform": {
+                    "path": "./icons/terraform.svg"
+                },
+                "toml": {
+                    "path": "./icons/toml.svg"
+                },
+                "ts_test": {
+                    "path": "./icons/ts_test.svg"
+                },
+                "tsx_test": {
+                    "path": "./icons/tsx_test.svg"
+                },
+                "typescript": {
+                    "path": "./icons/typescript.svg"
+                },
+                "vcs": {
+                    "path": "./icons/gitignore.svg"
+                },
+                "vite": {
+                    "path": "./icons/vite.svg"
+                },
+                "vue": {
+                    "path": "./icons/vue_js.svg"
+                },
+                "xml": {
+                    "path": "./icons/xml.svg"
+                },
+                "yaml": {
+                    "path": "./icons/yaml.svg"
+                },
+                "yarn": {
+                    "path": "./icons/yarn.svg"
+                }
+            }
+        }
+    ]
+}

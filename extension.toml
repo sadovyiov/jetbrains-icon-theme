@@ -1,0 +1,7 @@
+id = "jetbrains-icon-theme"
+name = "JetBrains Icon Theme"
+version = "1.0.0"
+schema_version = 1
+authors = ["sadovyiov (<sadovyiov@gmail.com>)"]
+description = "JetBrains icon theme for Zed"
+repository = "https://github.com/sadovyiov/jetbrains-icon-theme"

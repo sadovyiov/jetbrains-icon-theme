@@ -4,15 +4,18 @@ A clean and familiar icon theme for the **Zed editor**, inspired by the iconogra
 
 This extension brings a recognizable development experience to Zed by reusing well-known file and folder icons, helping you quickly navigate projects with visual clarity.
 
-------------------------------------------------------------------------
-
 ## Features
 
-- JetBrains-style file and folder icons
+- 109 JetBrains-style file and folder icons
 - Supports both **Dark** and **Light** UI themes
 
+## Screenshots
 
-------------------------------------------------------------------------
+### Dark
+![dark](https://github.com/user-attachments/assets/52dada52-fcdf-46b2-b190-3ca127a8b0aa)
+
+### Light
+![light](https://github.com/user-attachments/assets/6628b85c-f352-4974-8481-a3f763115e4d)
 
 ## Installation
 
@@ -33,8 +36,6 @@ git clone https://github.com/sadovyiov/zed-jetbrains-icons.git
 
 > Requires **Rust** installed on your system
 
-------------------------------------------------------------------------
-
 ## Usage
 
 After installation:
@@ -45,17 +46,13 @@ After installation:
     -   `JetBrains Dark`
     -   `JetBrains Light`
 
-------------------------------------------------------------------------
-
-## 🛠️ Customization
+## Customization
 
 You can modify icons or extend support for additional file types:
 
 -   Update icon mappings in the extension config
 -   Add new SVG icons
 -   Override existing associations
-
-------------------------------------------------------------------------
 
 ## Contributing
 
@@ -92,17 +89,11 @@ Contributions are welcome!
 
 7.  Open a Pull Request
 
-------------------------------------------------------------------------
-
 ## Motivation
 
-Zed is a fast and modern editor, but many developers are used to
-JetBrains-style icons.
-This project aims to combine the speed of Zed with the familiar visual
-language of JetBrains IDEs.
+Zed is a fast and modern editor, but many developers are used to JetBrains-style icons.
+This project aims to combine the speed of Zed with the familiar visual language of JetBrains IDEs.
 
-------------------------------------------------------------------------
-
-## 📄 License
+## License
 
 MIT License

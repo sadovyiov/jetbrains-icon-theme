@@ -24,7 +24,7 @@ This extension brings a recognizable development experience to Zed by reusing we
 1.  Clone the repository:
 
 ``` bash
-git clone https://github.com/sadovyiov/zed-jetbrains-icons.git
+git clone https://github.com/sadovyiov/jetbrains-icon-theme.git
 ```
 
 2.  Open Zed
@@ -65,7 +65,7 @@ Contributions are welcome!
 2.  Clone your fork:
 
 ``` bash
-git clone https://github.com/your-username/zed-jetbrains-icon.git
+git clone https://github.com/your-username/jetbrains-icon-theme.git
 ```
 
 3.  Create a new branch:
